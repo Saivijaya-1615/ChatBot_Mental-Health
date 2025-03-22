@@ -7,7 +7,7 @@ from langchain.llms import Cohere
 import datetime
 
 # Set API Key
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY", "AIzaSyC1rLxylaUGRtPaWYFUxPMX3BzpdR1unsQ")
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY", "1e7a5e10482ad3bce271180e403c1b4e9a785a00ec66c9821621d036d354ae72")
 
 # Load dataset function
 @st.cache_data
